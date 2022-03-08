@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Document</title>
+        <style>
+            body {
+                margin: 0;
+                display: block;
+            }
+    
+            .box {
+                margin-left: auto;
+                margin-right: auto;
+                height: 1200px;
+                width: 1000px;
+            }
+    
+            header {
+                height: 100px;
+                width: 1000px;
+                background-color:rgb(201, 156, 33);
+            }
+    
+            .logo {
+                height: 60px;
+                width: 160px;
+                margin-left: 30px;
+                margin-top: 15px;
+            }
+    
+            .navText {
+                color: white;
+                padding: 6px;
+            }
+    
+            section {
+                height: 1700px;
+                width: 1000px;
+                background-color:white;
+            }
+    
+            footer {
+                height: 250px;
+                width: 1000px;
+                background-color:crimson;
+            }
+    
+            .footer {
+                height: 50px;
+                width: 1000px;
+                background-color:crimson;
+            }
+    
+            .whiteTextColor {
+                color: white;
+            }
+    
+            .tdspacing {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+    
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+            }
+    
+            .hover td:hover {
+                background-color: mediumaquamarine;
+                display: block;
+    
+            }
+    
+    h2 {
+      color:black;
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+        </style>
+    <script>
+        function dis(val)
+        {
+           document.getElementById("result").value+=val
+        
+        }
+        
+        function solve() 
+                 { 
+                     let x = document.getElementById("result").value 
+                     let y = eval(x) 
+                     document.getElementById("result").value = y 
+                 }
+        
+        
+        function clr()
+        {
+        document.getElementById("result").value = ""
+        
+        }
+        </script>
+            </script>
+            <style> 
+            h1{
+               color: hotpink;
+               height: 900; width: 900px;
+            }
+                .title{ 
+                margin-bottom: 40px; 
+                text-align:center; 
+                width: 350px; 
+                color:rgb(255, 0, 157) ;
+                border: solid black 9px; 
+                }
+                input[type="button"] 
+                { 
+                background-color:rgba(190, 50, 50, 0.767) ; 
+                color: rgb(195, 130, 211); 
+                border: solid rgb(219, 198, 103) 9px; 
+                width:100% 
+                } 
+         
+                input[type="text"] 
+                { 
+                   padding: 20px 32px;
+                background-color:rgb(144, 108, 175); 
+                border: solid black 3px; 
+                width:100% 
+                } 
+                .button {
+         background-color: #229226; /* Green */
+         border: none;
+         color: rgba(53, 206, 99, 0.712);
+         padding: 16px 32px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         margin: 4px 2px;
+         transition-duration: 0.4s;
+         cursor: pointer;
+        }
+        
+        .button1 {
+         background-color: rgb(119, 169, 216); 
+         color: black; 
+         border: 2px solid #6191c7;
+        }
+        
+        .button1:hover {
+         background-color:rgb(73, 125, 192);
+         color:rgb(118, 158, 118);
+        }
+             </style>
+        
+        </head>
+        
+        </html>-
+    </head>
+    <body bgcolor="gray">
+    
+
+    
+       
+        <div class="box card">
+            <header>
+                <img class="logo" src="POP.jpg" style="float:left;">
+                <table border="0" style="padding-top: 35px; padding-left: 30%;" class="hover">
+                    <tr>
+                        <td style="width: 115px; text-align: center;">
+                            
+                            <a href="index.html"> <p class="navText">HOME</p></a>   
+                        </td>
+                        <td style="width: 115px; text-align: center;">
+                            
+                            <a href="Gallery.html"> <p class="navText">GALLERY</p></a>
+                        </td>
+                        <td style="width: 115px; text-align: center;">
+                            <a href="Services.html"><p class="navText">SERVICES</p></a>
+                        </td>
+                        <td style="width: 115px; text-align: center;">
+                            <a href="ContactUs.html"><p class="navText">CONTACT US</p></a>
+                        </td>
+                        <td style="width: 115px; text-align: center;">
+                            <a href="Games.html"><p class="navText">GAMES</p></a>
+                        </td>
+                       <td style="width: 115px; text-align: center;">
+                        <a href="MathCalculator.html"><p class="navText">Calculate equations</p></a>
+                    </tr>
+
+                </table>
+            </header>
+            <section>
+                <center>
+                    <body bgcolor=" sky blue">
+                        <center>
+                            <div class = title >Calculator</div> 
+                            <table border="4"> 
+                               <tr> 
+                                  <td colspan="3"><input type="text" id="result"/></td> 
+                                  <!-- clr() function will call clr to clear all value -->
+                                  <td><input type="button" value="c" onclick="clr()"class="button button1"/> </td> 
+                               </tr> 
+                               <tr> 
+                                  <!-- create button and assign value to each button -->
+                                  <!-- dis("1") will call function dis to display value -->
+                                  <td><input type="button" value="1" onclick="dis('1')"class="button button1"/> </td> 
+                                  <td><input type="button" value="2" onclick="dis('2')"class="button button1"/> </td> 
+                                  <td><input type="button" value="3" onclick="dis('3')"class="button button1"/> </td> 
+                                  <td><input type="button" value="/" onclick="dis('/')"class="button button1"/> </td>
+                               </tr> 
+                               <tr> 
+                                  <td><input type="button" value="4" onclick="dis('4')"class="button button1"/> </td> 
+                                    <td><input type="button" value="5" onclick="dis('5')"class="button button1"/> </td> 
+                                    <td><input type="button" value="6" onclick="dis('6')"class="button button1"/> </td> 
+                                    <td><input type="button" value="-" onclick="dis('-')"class="button button1"/> </td> 
+                                 </tr> 
+                                 <tr> 
+                                    <td><input type="button" value="7" onclick="dis('7')"class="button button1"/> </td> 
+                                    <td><input type="button" value="8" onclick="dis('8')"class="button button1"/> </td> 
+                                    <td><input type="button" value="9" onclick="dis('9')"class="button button1"/> </td> 
+                                    <td><input type="button" value="+" onclick="dis('+')"class="button button1"/> </td> 
+                                 </tr> 
+                                 <tr> 
+                                    <td><input type="button" value="." onclick="dis('.')"class="button button1"/> </td> 
+                                    <td><input type="button" value="0" onclick="dis('0')"class="button button1"/> </td> 
+                                    <!-- solve function call function solve to evaluate value -->
+                          <td><input type="button" value="=" onclick="solve()"class="button button1"/> </td> 
+                                    <td><input type="button" value="*" onclick="dis('*')"class="button button1"/> </td> 
+                                 </center>
+                                  </tr> 
+                              </table>
+                          <h1>Currency Converter</h1>
+                          <h2 style="margin-bottom: 2px;margin-top: 20px;"> Converter! ✨❤ </h2>
+                          <div style="width: 800px; height: 6px;background-color: gray; margin-top: 10px;"></div>
+                          <marquee behavior="right" direction="">YAY!! 😋✨❤</marquee>
+                                 <a href="CurrencyConverter.html"><img src="th.jfif" height="200" width="200" ></p></a>
+                                 <br>
+                                 <br>
+                                 <h1>Day-to-day Converter</h1>
+                          <h2 style="margin-bottom: 2px;margin-top: 20px;"> converter! ✨❤ </h2>
+                          <div style="width: 800px; height: 6px;background-color: rgb(91, 79, 94); margin-top: 10px;"></div>
+                          <marquee behavior="right" direction="">YAY!! 😋✨❤</marquee>
+                                 <a href="Day convertion.html"><img src="PLO.jpg" height="200" width="200" ></p></a>
+                    </body>
+                </center>
+            </section>
+            <footer>
+    
+                <table>
+                    <tr>
+                        <th style="width:400px; text-align: left; padding-left: 30px; padding-top: 8px; padding-bottom: 0px;"
+                            class="whiteTextColor">
+                            <h4>More About More Art</h4>
+                        </th>
+    
+                        <th style="width: 200px; text-align: left; padding-left: 30px; padding-top: 8px;padding-bottom: 0px;"
+                            class="whiteTextColor">
+                            <h4> Thanks for looking at my art website</h4>
+                        </th>
+    
+                        <th style="width: 300px; text-align: left; padding-left: 30px; padding-top: 8px;padding-bottom: 0px;"
+                            class="whiteTextColor">
+                            <h4>View us at:</h4>
+                        </th>
+    
+                    </tr>
+    
+                    <tr>
+                        <td valign="top">
+                            <p style="color:white; font-size: 14px; padding-left: 30px; font-size: 12px;">
+                                Art is very fun and it is actually really cool.  </p>
+    
+                        </td>
+    
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="instagram.png" height="40" width="40"
+                                            style="float:left; padding-right: 5px;">
+                                    </td>
+                                    <td>
+                                        <p class="whiteTextColor" style="line-height: 2px;">Follow on Instagram</p>
+                                    </td>
+                                </tr>
+    
+    
+                                <tr>
+                                    <td>
+                                        <img src="facebook.png" height="40" width="40"
+                                            style="float:left; padding-right: 5px;">
+                                    </td>
+                                    <td>
+                                        <p class="whiteTextColor" style="line-height: 2px;">Follow on Facebook</p>
+                                    </td>
+                                </tr>
+    
+    
+                                <tr>
+                                    <td>
+                                        <img src="youtube.png" height="40" width="40"
+                                            style="float:left; padding-right: 5px;">
+                                    </td>
+                                    <td>
+                                        <p class="whiteTextColor" style="line-height: 2px;">Follow on Youtube</p>
+                                    </td>
+                                </tr>
+    
+    
+                                <tr>
+                                    <td>
+                                        <img src="snapchat.png" height="40" width="40"
+                                            style="float:left; padding-right: 5px;">
+                                    </td>
+                                    <td>
+                                        <p class="whiteTextColor" style="line-height: 2px;">Follow on Snapchat</p>
+                                    </td>
+                                </tr>
+    
+    
+    
+    
+    
+    
+                            </table>
+                        </td>
+    
+                        <td valign="top">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="phone-sign-hi.png" height="25" width="25" style="float:left; padding-right: 5px;">
+                                    </td>
+                                    <td>
+                                        <p class="whiteTextColor" style="line-height: 2px;">425-123-I8U</p>
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td>
+                                        <img src="th (1).jfif" height="25" width="25"
+                                            style="float:left; padding-right: 5px;">
+                                    </td>
+                                    <td>
+                                        <p class="whiteTextColor" style="line-height: 2px;">Ant Arctica, Art A</p>
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td>
+                                        <img src="webiste.png" height="25" width="25"
+                                            style="float:left; padding-right: 5px;">
+                                    </td>
+                                    <td>
+                                        <p class="whiteTextColor" style="line-height: 2px;">www.Artwebsite.com</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+    
+                    </tr>
+    
+    
+                    <!-- <td style="position: relative; width: 300px; padding-left: 35px;">
+                            <p style="color:white; font-size: 20px;">Keep Connected</p>
+                    
+                            <img src="instagram.png" height="50" width="50">
+                            <p class="whiteTextColor">Follow on Instagram</p>
+                        
+                    </td> -->
+    
+                </table>
+            </footer>
+            <div class="footer" style="color: white; text-align: center; line-height: 50px;"> Artright Event Planner. All
+               Art reserved 2021 Made by the Art King Alishba</div>
+        </div>
+    
+    </body>
+    </html>

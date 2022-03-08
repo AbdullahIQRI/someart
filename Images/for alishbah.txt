@@ -1,0 +1,128 @@
+ <footer>
+
+            <table>
+                <tr>
+                    <th style="width:400px; text-align: left; padding-left: 30px; padding-top: 8px; padding-bottom: 0px;"
+                        class="whiteTextColor">
+                        <h4>More About More fruits</h4>
+                    </th>
+
+                    <th style="width: 200px; text-align: left; padding-left: 30px; padding-top: 8px;padding-bottom: 0px;"
+                        class="whiteTextColor">
+                        <h4>Keep Stalking us at</h4>
+                    </th>
+
+                    <th style="width: 300px; text-align: left; padding-left: 30px; padding-top: 8px;padding-bottom: 0px;"
+                        class="whiteTextColor">
+                        <h4>ROB us at</h4>
+                    </th>
+
+                </tr>
+
+                <tr>
+                    <td valign="top">
+                        <p style="color:white; font-size: 14px; padding-left: 30px; font-size: 12px;">
+                            Fruits are very good for you. There are many types of fruit to eat. They are yummy and they give you strength. eat them and you will be great. 
+                            "an apple a day keeps the doctor away"  </p>
+
+                    </td>
+
+                    <td>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="instagram.png" height="40" width="40"
+                                    style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">Follow on Instagram</p>
+                                    <a href="https://www.instagram.com/"></a>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <img src="facebook.png" height="40" width="40"
+                                        style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">Follow on Facebook</p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <img src="youtube.png" height="40" width="40"
+                                        style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">Follow on Youtube</p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <img src="snapchat.png" height="40" width="40"
+                                        style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">Follow on Snapchat</p>
+                                </td>
+                            </tr>
+
+
+
+
+
+
+                        </table>
+                    </td>
+
+                    <td valign="top">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="phone.png" height="25" width="25" style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">+92-343-1234567</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="location.png" height="25" width="25"
+                                        style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">North Fruitland, Fruit Block A</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="webiste.png" height="25" width="25"
+                                        style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">www.FRUITSITE.com.pk</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                </tr>
+
+
+                <!-- <td style="position: relative; width: 300px; padding-left: 35px;">
+                        <p style="color:white; font-size: 20px;">Keep Connected</p>
+                
+                        <img src="instagram.png" height="50" width="50">
+                        <p class="whiteTextColor">Follow on Instagram</p>
+                    
+                </td> -->
+
+            </table>
+        </footer>

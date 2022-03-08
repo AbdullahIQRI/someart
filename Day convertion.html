@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="JavaScript">
+     
+        function calculate(){
+        var Day = document.getForm.getDay.value
+        var Month = document.getForm.getMonth.value
+        var Year = document.getForm.getYear.value
+        Month = Month - 1
+        var theDate = new Date()
+        theDate.setDate(Day)
+        theDate.setMonth(Month)
+        theDate.setYear(Year)
+        var month = Month + 1
+        var dayArray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday") 
+        alert("The day is: " + dayArray[theDate.getDay()] + "( " + Day + "/" + month + "/" + Year + " )")
+        }  
+        </script>
+         <style>
+
+            h1{
+                color: rgb(182, 127, 255);
+                font-size: 30px;
+            }
+            .button1{
+                background-color: rgb(255, 127, 249);
+                text-align: center;
+                color: rgb(90, 133, 199);
+                font-size: 30px;
+            }
+                </style>
+</head>
+<body  bgcolor="aquamarine">
+ 
+   
+    <form name="getForm">
+        <center>
+        <h1>Date to Day Converter</h1>
+        Enter a date:<br />
+        Day: <input type="text" name="getDay" length=2 value="01" size="2" />
+        Month: <input type="text" name="getMonth" length=2 value="01" size="2" />
+        Year: <input type="text" name="getYear" length=4 value="2005" size="4" />
+        <br />
+        <input type="button" value="Calculate!" onClick=calculate() class="button1"/>
+    </center>
+        </form>
+    
+</body>

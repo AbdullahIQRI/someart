@@ -1,0 +1,94 @@
+<html>
+    
+<head>
+    
+<title>Currency Converter</title>
+<Marquee>Rupees to dollars converter ✨❤💕😍</Marquee>
+</head>
+
+<body bgcolor="gray">
+    
+<table align="center" >
+    
+<tr>
+    
+<td  bgcolor="pink">
+    
+<h1>Currency Converter </h1></td>
+
+</tr>
+
+<tr>
+    
+<td bgcolor="black">
+<marquee><h3>online Currency Converter</h3></td></marquee>
+
+</tr>
+
+</Table>
+
+<form name="currency_converter">
+    
+
+<table align="center" border="3">
+    
+<tr><td  colspan="2">PAK Currency (Rupees) : 
+  <input id="inputcurrency" type="number" name ="rupees"> 
+  <input  type="button" name ="Convert" Value = "Convert" onclick="currencyConverter(currency_converter.rupees.value)"></td></tr>
+
+  
+<tr>
+    
+<td> Dollar (American): </td>
+<td><input id="dollar"> </td>
+</tr>
+<tr>
+<td> Yuan (China):</td>
+<td><input id="yuan"></td>
+</tr>
+<tr>
+<td> Won (Korea): </td>
+<td><input id="won"></td>
+</tr>
+<tr>
+<td> Riyal (Saudia):</td>
+<td> <input id="riyal"></td></tr>
+<tr>
+<td> Dinar (Kuwait): </td>
+<td><input id="dinar"></td></tr>
+<tr>
+<td><input type="reset"  name="reset" Value="Reset Form"></td>
+</tr>
+<tr>
+<td colspan="2">You Can Press the Reset Button for resetting the form</td>
+</tr>
+</Table>
+<marquee>HEWO O-O 😆✨❤</marquee>
+<script>
+function currencyConverter(valuenumber) {
+if(currency_converter.rupees.value <= 0)
+window.alert("Enter value Greater than 0");
+else
+{
+   document.getElementById("dollar").value=(valuenumber/158.93).toFixed(2);
+  document.getElementById("yuan").value=(valuenumber/23.12).toFixed(2)
+  document.getElementById("won").value=(valuenumber/0.14).toFixed(2)
+  document.getElementById("riyal").value=(valuenumber/42.37).toFixed(2)
+   document.getElementById("dinar").value=(valuenumber/522.21).toFixed(2)
+}
+ }
+</script>
+<style>
+  h1{ 
+    color: rgb(255, 255, 255);
+    font-size:xx-large;
+    font-family: fantasy;
+  }
+  h3{
+    color: cornsilk;
+  }
+    </style>
+
+
+</body>
+</html>
